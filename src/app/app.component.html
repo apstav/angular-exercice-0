@@ -1,11 +1,13 @@
 <div class="container border border-primary border-2 my-4">
-    <div class="border border-primary border-2 my-4">
+    <div class="border border-primary border-2 mt-4">
 
         <app-user-input (wordSubmit)="onWordSubmit($event)"></app-user-input>
     </div>
     <div class="row">
-        <div class="col border border-primary border-2 m-3"><app-odd-word [oddWord]="oddWord"></app-odd-word></div>
-        <div class="col border border-primary border-2 m-3"><app-even-word [evenWord]="evenWord"></app-even-word></div>
+        <div class="col border border-primary border-2 mx-3 my-4"><app-odd-word [oddWord]="oddWord"></app-odd-word>
+        </div>
+        <div class="col border border-primary border-2 mx-3 my-4"><app-even-word [evenWord]="evenWord"></app-even-word>
+        </div>
 
     </div>
 </div>
