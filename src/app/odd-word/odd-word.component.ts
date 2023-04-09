@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./odd-word.component.css'],
 })
 export class OddWordComponent {
-  @Input() oddWords: string[] = [];
+  @Input() oddWord: string[] = [];
 }

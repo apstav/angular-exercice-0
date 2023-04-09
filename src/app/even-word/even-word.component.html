@@ -1,1 +1,5 @@
-<p>even-word works!</p>
+<h5>Λέξεις με ζυγό μήκος</h5>
+<p *ngIf="evenWord.length === 0">Δεν υπάρχουν</p>
+<div *ngIf="evenWord.length !== 0">
+    <p *ngFor="let word of evenWord">{{ word }}</p>
+</div>

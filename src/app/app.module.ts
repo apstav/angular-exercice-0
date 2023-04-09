@@ -11,12 +11,10 @@ import { OddWordComponent } from './odd-word/odd-word.component';
     AppComponent,
     UserInputComponent,
     EvenWordComponent,
-    OddWordComponent
+    OddWordComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
